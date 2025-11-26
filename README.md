@@ -1,6 +1,7 @@
 # pytrace
 Route tracing and hop monitoring script. This is a multithreaded tracing/hop monitoring script.
 
+<img width="2543" height="1276" alt="image" src="https://github.com/user-attachments/assets/9f316d42-ed68-44cf-b297-4ad6b9556509" />
 
 
 ## Example:
