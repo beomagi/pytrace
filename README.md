@@ -8,8 +8,8 @@ Route tracing and hop monitoring script. This is a multithreaded tracing/hop mon
 ```bash
 ./pytrace google.com
 ```
-Starts web viewer on 127.0.0.1:8000
-Use an ssh tunnel to run on a server and access remotely
+Starts web viewer on 127.0.0.1:8000.<br/>
+Use an ssh tunnel to run on a server and access remotely/
 
 
 ```bash
@@ -22,4 +22,9 @@ Starts the web viewer with a previously saved log. No ping/tracing is done.
 ```bash
 ./pysetup.sh
 ```
-Setup python venv. installed scapy module. Will ask user if they wish to give python access to capture packets without sudo.
+Setup python venv. Installs scapy module.</br>
+ill ask user if they wish to give python access to capture packets without sudo.</br>
+
+## Todo:
+- Should add setup for powershell/windows.
+- lower left divs aren't ideal. Replace hop latency history with matching route for the hop, and have that clickable to update the main upper left div's last route.
